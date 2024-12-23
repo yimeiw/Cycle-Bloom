@@ -1,3 +1,35 @@
+// {
+//   "extends": "@react-native/typescript-config/tsconfig.json",
+
+//   "compilerOptions": {
+//     "moduleResolution": "node16",
+//     "module": "Node16",
+//     "esModuleInterop": true,
+//     "allowJs": true,
+//     "skipLibCheck": true
+//   },
+
+//   "include": [
+//     "src/**/*",
+//     "custom.d.ts"
+//   ]
+// }
+
+
 {
-  "extends": "@react-native/typescript-config/tsconfig.json"
+  "extends": "@react-native/typescript-config/tsconfig.json",
+
+  "compilerOptions": {
+    "moduleResolution": "node",          // Change from node16 to node for compatibility with React Native
+    "module": "esnext",                   // Use esnext for module output, better compatibility
+    "esModuleInterop": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "jsx": "react-native"                 // Ensure JSX is configured for React Native
+  },
+
+  "include": [
+    "src/**/*",
+    "custom.d.ts"
+  ]
 }
