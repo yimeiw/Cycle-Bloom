@@ -1,0 +1,13 @@
+{
+  "name": "MyFirstApp",
+  "version": "@latest",
+  "description": "CycleBloom",
+  "main": "index.js",
+  "repository": "https://github.com/yimeiw/CycleBloom",
+  "author": "Powerpuff Girls",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "react-native": "^0.76.5"
+  }
+}
